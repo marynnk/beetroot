@@ -1,0 +1,14 @@
+.form {
+    border-radius: 15px;
+    border: 2px solid;
+    background-color: aqua;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+.btn {
+    direction: rtl;
+}
