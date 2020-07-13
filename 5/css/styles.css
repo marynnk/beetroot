@@ -1,0 +1,43 @@
+.background {
+    width: 5px;
+    height: -5px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+p {
+    text-align: center;
+    color: ghostwhite;
+    margin-top: 30px
+}
+
+.main-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.main-content>img {
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-right: 30px
+}
+
+.solid {
+    width: 250px
+}
+
+.align-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+span {
+    color: lightskyblue
+}
