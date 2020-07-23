@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 18px;
+}
+
+.background {
+    background: rgb(75, 91, 100);
+    width: 1200px;
+    height: 800px;
+}
+
+.title-text {
+    background: black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    width: 830px;
+    position: relative;
+    top: 90px;
+    left: 350px;
+    z-index: 3;
+}
+
+.title-text p, h2 {
+    color: white;
+}
+
+hr {
+    color: grey;
+    width: 815px;
+    margin-top: 10px;
+}
+
+.main-text {
+    height: 750px;
+    width: 760px;
+    position: relative;
+    top: 30px;
+    left: 100px;
+    background: white;
+    padding: 200px 120px 0px 120px;
+}
+
+.icons {
+    height: 200px;
+    width: 680px;
+    background: yellow;
+    position: relative;
+    z-index: 12;
+}
+
+p {
+    padding-top: 10px;
+}
+
+h1 {
+    padding-top: 20px;
+}
