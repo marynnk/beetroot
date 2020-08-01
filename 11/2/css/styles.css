@@ -1,0 +1,33 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background: url(/images/background.png) no-repeat;
+}
+
+.top-section, .bottom-section {
+    display: flex;
+    flex-direction: row;
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    color: grey;
+    padding-top: 10px;
+}
+
+h2 {
+    padding-top: 10px;
+}
+
+.small-content {
+    background: white;
+    width: 360px;
+}
+
+section {}
