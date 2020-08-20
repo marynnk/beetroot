@@ -1,13 +1,26 @@
+@font-face {
+    font-family: Raleway;
+    font-weight: 700;
+    src: url("/fonts/Raleway-Bold.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: Raleway;
+    font-weight: 400;
+    src: url("/fonts/Raleway-Light.ttf") format("ttf");
+}
+
 body {
     width: 1600px;
     height: 800px;
     /* background-repeat: no-repeat;*/
     background-position: center;
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
     font-size: 14px;
     color: white;
     margin: 0;
     padding: 0;
+    line-height: 20px;
 }
 
 .top {
@@ -16,20 +29,22 @@ body {
     justify-content: center;
     align-items: center;
     width: 500px;
-}
-
-.content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    padding-left: 550px;
+    text-align: center;
 }
 
 .main {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     margin-bottom: 30px;
     margin-top: 30px;
+    text-align: left;
+    position: relative;
+}
+
+div {
+    padding: 0px 10px;
 }
 
 img {
@@ -54,5 +69,38 @@ button {
     background-color: #f72b3b;
     border: 0px;
     color: white;
+    font-weight: lighter;
     font-size: 20px;
+    font-family: Raleway-Light;
+}
+
+h1, p:nth-child(2) {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+}
+
+p {
+    font-family: Raleway, sans-serif;
+}
+
+.data-wrapper {
+    position: relative;
+}
+
+.first {
+    position: absolute;
+    top: 5px;
+    padding-left: 15px;
+}
+
+.second {
+    position: absolute;
+    top: 230px;
+    padding-left: 10px;
+}
+
+.third {
+    position: absolute;
+    top: 250px;
+    padding-left: 10px;
 }

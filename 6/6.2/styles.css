@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.shopping-list {
+    width: 800px;
+    position: relative;
+    margin-left: 100px;
+}
+
+.header, .items-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: lightslategray
+}
+
+h1, h3 {
+    color: lightsalmon;
+    padding: 5px 0px;
+}
+
+.items-list {
+    background: lightskyblue;
+    width: 600px;
+    align-items: flex-start;
+    padding:
+}
+
+li {
+    list-style-type: none;
+    padding: 10px 0px;
+}
+
+p {
+    display: inline;
+}
