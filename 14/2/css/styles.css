@@ -1,0 +1,89 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-size: 18px;
+    background: url(/images/background.png) no-repeat;
+    width: 1500px;
+}
+
+.header-content {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.align-header {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+input, textarea {
+    margin-top: 15px;
+    background-color: #6dd6d8;
+    border-style: none;
+    padding-left: 10px;
+}
+
+input {
+    height: 50px;
+}
+
+input::placeholder, textarea::placeholder {
+    color: white;
+    font-weight: 300;
+}
+
+input:hover, textarea:hover {
+    background-color: #00c4c4;
+    border-left: 4px solid gray;
+}
+
+input:focus, textarea:focus {
+    background-color: #00c4c4;
+    border: none;
+    outline: none;
+    /* border-width: 0px; */
+}
+
+.main-content {
+    margin: 45px 0px 0px 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 970px;
+}
+
+.fill-in-explanation h5, p {
+    margin-top: 15px;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 250px;
+}
+
+span {
+    margin-right: 150px;
+}
+
+.red-text {
+    color: red;
+    margin-right: 0px;
+}
